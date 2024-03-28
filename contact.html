@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Travel - Si Paling Travelling</title>
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Connect Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-container">
+        <h1>"Your Travel Agency Partner"</h1>
+        <!-- Navigasi -->
+        <div class="navbar">
+            <div class="logo-icon"></div>
+            <ul class="menu">
+                <li><a href="welcome.html">Home</a></li>
+                <li><a href="index.html">Our Package</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="title-contactus">
+            <h1>Kami Senantiasa Melayani Anda</h1>
+            <p>Kepuasan Anda Adalah Kebahagiaan Kami</p>
+        <div class="content-container">
+            <!-- Tampilan gambar -->
+            <div class="img-sidebar" style="height: 200px; width: 100%;
+             margin-left: 50px; margin-right: 50px;">
+             <div class="banner-section">
+                <img class="banner-img" src="./assets/jakarta.png">
+                <img class="banner-img" src="./assets/usa.png">
+                <img class="banner-img" src="./assets/india.png">
+                <img class="banner-img" src="./assets/paris.png">
+            </div>
+                <p>Apapun yang anda inginkan, kami siap melayani anda
+                dengan sepenuh hati untuk mendapatkan pengalaman terbaik
+                liburan anda. Oleh karena itu, kami berikan keunggulan yang
+                anda dapatkan dengan memesan perjalanan liburan anda di Travel
+                agent kami, yaitu:</p>
+                <ol>
+                    <li>Harga yang kompetitif</li>
+                    <li>Pelayanan support real time 24 jam</li>
+                    <li>Pengurusan visa lebih mudah</li>
+                    <li>Garansi Uang Kembali</li>
+                </ul>
+            </div>
+            <!-- Tampilan Form -->
+            <div class="contact-us" style="height: 200px; width: 100%;
+            margin-left: 100px; margin-right: 100px;">
+                <h3>Contact Us</h3>
+                <p>Ada yang ingin ditanya? kami siap menjawab apa yang anda butuhkan dalam 1x24 jam</p>
+                <form class="contact-form">
+                <label>Nama Anda </label><br />
+                <input type="text" name="nama" placeholder="Masukan Nama Anda"><br />
+                <label>Email Anda </label><br />
+                <input type="text" name="email" placeholder="Masukan Email Anda"><br />
+                <label>Apa yang Anda Butuhkan? </label> <br />
+                <select name="help" id="help">
+                    <option value="pilih-opsi">Pilih opsi</option>
+                    <option value="harga">Harga destinasi</option>
+                    <option value="benefit">Benefit yang didapatkan</option>
+                    <option value="visa">Pengurusan visa</option>
+                    <option value="bayar">Metode pembayaran</option>
+                </select><br />
+                <button type="button" onclick="submitForm();">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Connect JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

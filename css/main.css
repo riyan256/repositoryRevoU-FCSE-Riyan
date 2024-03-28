@@ -1,0 +1,69 @@
+/* CSS Eksternal ini untuk halaman welcome.html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../assets/fuji.jpg');
+    background-size: cover;
+}
+
+.wrapper {
+    background-color: transparent;
+    border-radius: 25px;
+    outline: black;
+}
+
+.wrapper p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: palevioletred;
+    font-size: 38px;
+    margin-top: 44px;
+}
+
+
+.logo-icon {
+    width: 200px;
+    height: 200px;
+    margin: 35px 35px;
+    background-image: url('../assets/travel-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: auto;
+}
+
+.wrapper button {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    background-position: center;
+    outline: black;
+    border-radius: 95px;
+    cursor: pointer;
+    background-color: lightblue;
+    color: darkmagenta;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper button:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+@media only screen and (min-width: 480px){
+    .wrapper {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,281 @@
+/* CSS Eksternal ini untuk halaman index.html dan contact.html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-image: url(../assets/beach.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    color: ghostwhite;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    padding: 2.5rem 0;
+    position: relative;
+}
+
+.logo-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url('../assets/travel-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div {
+    background-color: greenyellow;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover{
+    color: orange;
+}
+
+.our-package{
+    max-width: 1200px;
+    margin: 2rem auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+}
+
+.our-package h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    width: 100%;
+}
+
+.op-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.op-item :hover {
+    transform: scale(1.1);
+}
+
+.op-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.op-item h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.op-item p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.help {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.help h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.help p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 26px;
+    font-size: 24px;
+}
+
+.help button {
+    background-color: lightblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    border: none;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.help button:hover {
+    background-color: red;
+}
+
+.title-contactus {
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.title-contactus h1 {
+    font-size: 28xpx;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.title-contactus p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.content-container {
+    background-color: aliceblue;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.img-sidebar {
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-sidebar img {
+    height: 375px;
+    width: 625px;
+    padding-left: 1px;
+    padding-right: 1px;
+    display: flex;
+}
+
+.img-sidebar p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.img-sidebar ol {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+    padding-left: 18px;
+}
+
+.contact-us {
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-us h3 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.contact-us p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: lightgreen;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    border: none;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: yellow;
+}
+
+@media only screen and (min-width: 1280px){
+    .header-container{
+        flex-direction: column;
+    }
+}
